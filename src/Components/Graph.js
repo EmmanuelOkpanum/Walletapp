@@ -194,8 +194,6 @@ const Graph = () => {
           <div className="calender">
             <ul>
               <li
-                data-aos="fade-down"
-                data-aos-duration="900"
                 className={activeTab === "day" ? "active-tab" : ""}
                 onClick={() => handleTabClick("day")}
               >
@@ -203,28 +201,21 @@ const Graph = () => {
                 Day{" "}
               </li>
               <li
-                data-aos="fade-down"
-                data-aos-duration="1100"
                 className={activeTab === "week" ? "active-tab" : ""}
                 onClick={() => handleTabClick("week")}
               >
                 Week{" "}
               </li>
               <li
-                data-aos="fade-down"
-                data-aos-duration="1300"
                 className={activeTab === "month" ? "active-tab" : ""}
                 onClick={() => handleTabClick("month")}
               >
                 Month{" "}
               </li>
               <li
-                data-aos="fade-down"
-                data-aos-duration="1500"
                 className={activeTab === "year" ? "active-tab" : ""}
                 onClick={() => handleTabClick("year")}
               >
-                
                 Year
               </li>
             </ul>
